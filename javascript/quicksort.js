@@ -12,7 +12,6 @@ const partition = (array, start, end) => {
     }
 
     if (start < end) {
-      // swap the found elements
       [array[start], array[end]] = [array[end], array[start]];
     }
   }
